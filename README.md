@@ -1,5 +1,7 @@
 # gpt4allLocalPY
 
+# PYTHON 3.9 OR PYTHON 3.10
+
 # 🧹 Document Normalizer for GPT4All
 
 This project allows you to **normalize documents** of various formats (PDF, DOCX, DOC, ODT, HTML...) into plain `.txt` files suitable for analysis by **GPT4All** (offline large language model).
