@@ -1,13 +1,25 @@
+#!/opt/virtualenv/gpt4all/bin/python3
 import os
 import sys
 import argparse
 from datetime import datetime
 from pathlib import Path
-from langchain.vectorstores import Chroma
-from langchain.document_loaders import TextLoader
-from langchain.embeddings import GPT4AllEmbeddings
-from langchain.llms import GPT4All
+
+##
+from langchain_community.vectorstores import Chroma
+from langchain_community.document_loaders import TextLoader
+from langchain_community.embeddings import GPT4AllEmbeddings
+from langchain_community.llms import GPT4All
 from langchain.chains import RetrievalQA
+
+
+##
+
+#from langchain.vectorstores import Chroma
+#from langchain.document_loaders import TextLoader
+#from langchain.embeddings import GPT4AllEmbeddings
+#from langchain.llms import GPT4All
+#from langchain.chains import RetrievalQA
 
 def log_message(file, role, message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -47,13 +59,12 @@ def main():
     vectordb = Chroma.from_documents(documents, embeddings, persist_directory="./chroma_db")
 
     llm = GPT4All(
-        model=args.model_path,
-        model_type=args.model_type,
-        allow_download=False,
-        n_threads=os.cpu_count() or 4,
-        backend="llama"
-    )
+		model=args.model_path,
+		allow_download=False,
+		n_threads=os.cpu_count() or 4
+	)
 
+    
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
