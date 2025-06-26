@@ -1,5 +1,19 @@
 # gpt4allLocalPY
 
+#PYTHON PIP INSTALL:
+
+pip install -r requirements.txt
+
+APT INSTALL:
+
+sudo apt update
+xargs -a requirements_install_apt.txt sudo apt install -y
+
+OR:
+
+cat requirements_install_apt.txt | xargs sudo apt install -y
+
+
 # PYTHON 3.9 OR PYTHON 3.10
 
 # 🧹 Document Normalizer for GPT4All
