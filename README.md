@@ -1,4 +1,11 @@
 # gpt4allLocalPY
+wget https://huggingface.co/TheBloke/Nous-Hermes-2-Mistral-7B-DPO-GGUF
+
+python3 chat_gpt4all_localdocs.py \
+  --model_path /modelli/Nous-Hermes-2-Mistral-7B-DPO.Q4_0.gguf \
+  --docs_dir /percorso/documenti_normalized
+
+
 
 #PYTHON PIP INSTALL:
 
