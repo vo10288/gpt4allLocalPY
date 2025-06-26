@@ -103,6 +103,20 @@ Developed by Antonio 'Visi@n' Broi
 antonio@tsurugi-linux.org
 https://tsurugi-linux.org
 
+ NVIDIA CUDA TOOLKIT
+sudo apt install nvidia-cuda-toolkit
+nvidia-smi
+sudo apt install libcudart11.0
+apt search libcudart
+
+
+
+langchain>=0.2.0
+langchain-community>=0.0.22
+gpt4all>=2.4
+chromadb
+
+
 License: MIT
 
 
