@@ -1,3 +1,5 @@
-gpt4all
-langchain
+langchain>=0.2.0
+langchain-community>=0.0.22
+gpt4all>=2.4
 chromadb
+
