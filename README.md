@@ -1,5 +1,6 @@
 # gpt4allLocalPY
-wget https://huggingface.co/TheBloke/Nous-Hermes-2-Mistral-7B-DPO-GGUF
+
+wget https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF/blob/main/Nous-Hermes-2-Mistral-7B-DPO.Q4_0.gguf
 
 python3 chat_gpt4all_localdocs.py \
   --model_path /modelli/Nous-Hermes-2-Mistral-7B-DPO.Q4_0.gguf \
