@@ -1,0 +1,78 @@
+    1  2025-06-26 12:11:50 sudo su
+    2  2025-06-26 12:12:44 exti
+    3  2025-06-26 12:12:52 exit
+    4  2025-06-26 12:41:19 pandoc
+    5  2025-06-26 12:41:25 sudo apt-get update
+    6  2025-06-26 12:43:01 sudo apt-get install pandoc
+    7  2025-06-26 12:45:18 sudo apt-get install pdftotext docx2txt  unoconv antiword odt2text html2text tesseract-ocr-all
+    8  2025-06-26 12:45:39 sudo apt-get install pdf2text docx2txt  unoconv antiword odt2text html2text tesseract-ocr-all
+    9  2025-06-26 12:45:54 sudo apt-get install  docx2txt  unoconv antiword odt2text html2text tesseract-ocr-all
+   10  2025-06-26 12:46:03 sudo apt-get install  docx2txt  unoconv antiword html2text tesseract-ocr-all
+   11  2025-06-26 12:47:43 df -h
+   12  2025-06-26 12:56:14 pwd
+   13  2025-06-26 12:56:17 cd ..
+   14  2025-06-26 12:56:19 sudo su
+   15  2025-06-26 13:07:19 pip install gpt4all
+   16  2025-06-26 13:28:58 python --version
+   17  2025-06-26 13:41:56 pwd
+   18  2025-06-26 13:42:01 cd
+   19  2025-06-26 13:42:03 cd Desktop/
+   20  2025-06-26 13:42:05 ll
+   21  2025-06-26 13:42:14 chmod +x normalizzatore_local_docs.sh 
+   22  2025-06-26 13:42:23 ./normalizzatore_local_docs.sh localDocs/
+   23  2025-06-26 13:42:55 sudo dpkg --configure -a
+   24  2025-06-26 13:43:04 ./normalizzatore_local_docs.sh localDocs/
+   25  2025-06-26 13:43:47 sudo su
+   26  2025-06-26 13:44:06 ll
+   27  2025-06-26 13:44:10 ./normalizzatore_local_docs.sh localDocs/
+   28  2025-06-26 13:44:25 sudo apt install popler-utils
+   29  2025-06-26 13:44:30 sudo apt install poppler-utils
+   30  2025-06-26 13:44:43 sudo apt install tesseract-ocr-all
+   31  2025-06-26 13:44:55 sudo apt --fix-broken install
+   32  2025-06-26 13:45:15 ./normalizzatore_local_docs.sh localDocs/
+   33  2025-06-26 13:47:51 sudo su
+   34  2025-06-26 13:52:23 python -m venv /opt/virtualenv/gpt4all
+   35  2025-06-26 13:52:26 sudo su
+   36  2025-06-26 15:04:01 exit
+   37  2025-06-26 14:09:55 sudo apt install nvidia-cuda-toolkit
+   38  2025-06-26 14:14:18 python chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   39  2025-06-26 14:14:27 pwd
+   40  2025-06-26 14:14:29 cd Desktop/
+   41  2025-06-26 14:14:31 python chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   42  2025-06-26 14:14:46 ./chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   43  2025-06-26 14:15:19 ll
+   44  2025-06-26 14:15:29 sudo rm chroma_db/
+   45  2025-06-26 14:15:35 sudo rm -R chroma_db/
+   46  2025-06-26 14:15:37 ./chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   47  2025-06-26 14:18:14 sudo chown -R tsurugi /root/gpt4all
+   48  2025-06-26 14:18:21 sudo chgrp -R tsurugi /root/gpt4all
+   49  2025-06-26 14:18:26 ll /root/
+   50  2025-06-26 14:18:30 ls /root/
+   51  2025-06-26 14:18:39 sudo chgrp -R tsurugi /root/
+   52  2025-06-26 14:18:47 sudo chgrp -R tsurugi /root/gpt
+   53  2025-06-26 14:18:50 sudo chgrp -R tsurugi /root/gpt4all
+   54  2025-06-26 14:18:57 sudo ll /root/
+   55  2025-06-26 14:19:02 sudo ls /root/
+   56  2025-06-26 14:19:07 sudo ls -l /root/
+   57  2025-06-26 14:19:17 ./chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   58  2025-06-26 14:21:34 df -h
+   59  2025-06-26 14:22:17 sudo su
+   60  2025-06-26 14:23:14 ./chat_gpt4all_localdocs.py --model_path nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   61  2025-06-26 14:25:52 ./chat_gpt4all_localdocs.py --model_path /home/tsurugi/Desktop/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   62  2025-06-26 14:50:24 clear
+   63  2025-06-26 14:50:40 ncdu
+   64  2025-06-26 14:50:59 rm nomic-embed-text-v1.5.f16.gguf 
+   65  2025-06-26 14:51:10 df -h
+   66  2025-06-26 14:51:12 sync
+   67  2025-06-26 14:51:20 ncdu
+   68  2025-06-26 14:51:24 cd ..
+   69  2025-06-26 14:51:25 ncdu
+   70  2025-06-26 14:53:06 df -h
+   71  2025-06-26 14:53:43 pwd
+   72  2025-06-26 14:53:44 cd ..
+   73  2025-06-26 14:53:46 ncdu
+   74  2025-06-26 14:53:51 cd tsurugi/
+   75  2025-06-26 14:53:53 ncdu
+   76  2025-06-26 15:04:04 exit
+   77  2025-06-26 15:04:21 cd Desktop/
+   78  2025-06-26 15:04:30 history > hystory-tsurugi.csv

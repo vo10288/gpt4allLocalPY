@@ -1,0 +1,45 @@
+    1  cd
+    2  pwd
+    3  mkdir Desktop
+    4  ls Desktop/
+    5  cp Desktop/GPT4All.desktop ../../home/tsurugi/Desktop/
+    6  exit
+    7  cd
+    8  ls
+    9  ncdu 
+   10  df -h
+   11  exit
+   12  cd
+   13  cd gpt4all/
+   14  ls
+   15  ll
+   16  ./bin/chat &
+   17  l
+   18  ll
+   19  tree
+   20  tree | grep guf
+   21  tree | grep -B 5  guf
+   22  ls resources/
+   23  exit
+   24  mv /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf .
+   25  ll
+   26  chmod 777 nomic-embed-text-v1.5.f16.gguf 
+   27  exit
+   28  python -m venv /opt/virtualenv/gpt4all
+   29  source /opt/virtualenv/gpt4all/bin/activate
+   30  python chat_gpt4all_localdocs.py 
+   31  pip install langchain
+   32  pip install gpt4all
+   33  python chat_gpt4all_localdocs.py 
+   34  pip install -U langchain-community
+   35  python chat_gpt4all_localdocs.py 
+   36  python chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   37  pip install chromadb
+   38  python chat_gpt4all_localdocs.py --model_path /root/gpt4all/resources/nomic-embed-text-v1.5.f16.gguf  --model_type llama --docs_dir localDocs_normalized/
+   39  clear
+   40  chmod + x chat*.py
+   41  chmod +x chat_gpt4all_localdocs*.py
+   42  ll
+   43  history >> historyroot-tsurugi.csv
+   44  exit
+   45  history > historyroot-tsurugi.csv 
