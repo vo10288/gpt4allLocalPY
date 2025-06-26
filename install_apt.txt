@@ -1,0 +1,5 @@
+poppler-utils
+docx2txt
+antiword
+odt2txt
+html2text
